@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/pausiroy/js-restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^6.7.1",
+    "image-webpack-loader": "^8.1.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.1"
   }
 }
