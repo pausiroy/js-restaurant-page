@@ -1,3 +1,5 @@
+import restaurantImage from "./assets/restaurant-image.jpg"
+
 export function initialPageLoad() {
     const contentDiv = document.querySelector("#content");
     
@@ -13,7 +15,7 @@ export function initialPageLoad() {
     //Landing page image
     const centerImg = document.createElement("img");
     centerImg.classList.add("center-img");
-    centerImg.src = ("../src/assets/restaurant-image.jpg");
+    centerImg.src = restaurantImage;
     centerImg.alt = ("Restaurant image");
     contentDiv.appendChild(centerImg);
 
